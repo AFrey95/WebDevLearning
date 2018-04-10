@@ -1,0 +1,14 @@
+.banner {
+	background-color: #ffff80;
+	color: black;
+}
+
+#infoTable {
+	border: solid 3px black;
+	
+}
+
+#infoTable th {
+	background-color: black;
+	color: white;
+}

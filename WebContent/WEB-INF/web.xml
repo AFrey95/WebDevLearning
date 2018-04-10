@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>WebDevLearning</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>NotCats</servlet-name>
+    <servlet-class>com.ln.web.cats.NotCats</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NotCats</servlet-name>
+    <url-pattern>/NotCats</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TheCats</servlet-name>
+    <servlet-class>com.ln.web.cats.TheCats</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TheCats</servlet-name>
+    <url-pattern>/TheCats</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>CatStart</servlet-name>
+    <servlet-class>com.ln.web.cats.CatStart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CatStart</servlet-name>
+    <url-pattern>/CatStart</url-pattern>
+  </servlet-mapping>
+</web-app>
